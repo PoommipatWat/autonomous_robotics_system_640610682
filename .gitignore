@@ -1,0 +1,15 @@
+# Ignore everything
+/*
+
+# Don't ignore src directory
+!/src/
+
+# Don't ignore .gitignore
+!.gitignore
+
+# Ignore common ROS2 build artifacts within src
+/src/**/build/
+/src/**/install/
+/src/**/log/
+/src/**/__pycache__/
+/src/**/*.pyc
