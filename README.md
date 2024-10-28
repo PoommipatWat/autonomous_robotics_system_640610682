@@ -1,19 +1,48 @@
-## โปรเจคนี้เป็นส่วนหนึ่งของวิชา Autonomous Robot System (271411)
-### จัดทำโดย นายภูมิพัฒน์ วัฒนประสิทธิ์
-### รหัสนักศึกษา 640610682
-### คณะวิศวกรรมศาสตร์ มหาวิทยาลัยเชียงใหม่
+# Autonomous Robot System Project
 
-## ขั้นตอนการติดตั้ง workspace
-### 1. git clone https://github.com/PoommipatWat/autonomous_robotics_system_640610682.git
-### 2. cd autonomous_robotics_system_640610682
-### 3. colcon build
-### 4. source install/setup.bash
+Part of **Autonomous Robot System (271411)** Course at Chiang Mai University
 
-## ขั้นตอนการสร้างแผนที่
-### ros2 launch ai_robot keep_map.launch.py
+## Student Info
+- **Name:** Poommipat Wattanaprasit
+- **Student ID:** 640610682
+- **Faculty:** Faculty of Engineering, Chiang Mai University
 
-## ขั้นตอนการโหลดแผนที่ ที่เก็บมา และใช้งาน rrt*
-### ros2 launch ai_robot bringup.launch.py
+## Installation Guide
 
-## ขั้นตอนการโหลดแผนที่ ที่ถูกเก็บมาเป็นตัวอย่าง และใช้งาน rrt*
-### ros2 launch ai_robot example.launch.py
+### Clone and Setup Workspace
+```bash
+# Clone the repository
+git clone https://github.com/PoommipatWat/autonomous_robotics_system_640610682.git
+
+# Navigate to project directory
+cd autonomous_robotics_system_640610682
+
+# Build the workspace
+colcon build
+
+# Source the setup file
+source install/setup.bash
+```
+
+## Usage Instructions
+
+### Map Creation
+To create a new map:
+```bash
+ros2 launch ai_robot keep_map.launch.py
+```
+
+### Load Saved Map with RRT*
+To load your saved map and use RRT*:
+```bash
+ros2 launch ai_robot bringup.launch.py
+```
+
+### Load Example Map with RRT*
+To load the example map and use RRT*:
+```bash
+ros2 launch ai_robot example.launch.py
+```
+
+---
+*Project repository: [autonomous_robotics_system_640610682](https://github.com/PoommipatWat/autonomous_robotics_system_640610682)*
