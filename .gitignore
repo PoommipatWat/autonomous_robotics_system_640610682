@@ -7,6 +7,10 @@
 # Don't ignore .gitignore
 !.gitignore
 
+# Don't ignore csv_example
+!data_example.csv
+!data.csv
+
 # Ignore common ROS2 build artifacts within src
 /src/**/build/
 /src/**/install/
