@@ -10,6 +10,7 @@
 # Don't ignore csv_example
 !data_example.csv
 !data.csv
+!myworld_640610682.ttt
 
 # Ignore common ROS2 build artifacts within src
 /src/**/build/
